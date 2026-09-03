@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#080b08">
+  <title>Servers — ScheduleMP</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="accent-line"></div>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="ScheduleMP servers"><span class="brand-mark">S</span><strong>SCHEDULE<span>MP</span></strong></a>
+    <nav aria-label="ScheduleMP links">
+      <a class="web-link" href="/">ScheduleMP.net ↗</a>
+      <a class="web-link" href="/downloads">Downloads ↗</a>
+      <a class="web-link" href="/support">Support ↗</a>
+      <a class="web-link" href="/docs">Documentation ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="search-row" aria-label="Server search">
+      <div class="search-wrap"><span>⌕</span><input id="search" type="search" placeholder="Search servers" aria-label="Search servers"><button id="clear-search" aria-label="Clear search">×</button></div>
+      <button id="filters-button" class="dark-button">▽ FILTERS</button>
+      <button id="sort-button" class="dark-button square" aria-label="Change sorting">⇅</button>
+      <button id="direct-button" class="green-button">DIRECT CONNECT</button>
+    </section>
+    <div class="query-help"><code>"role play"</code> for full-string match, <code>tag:</code> to match tags, <code>region:</code> to match regions.</div>
+
+    <section id="filter-panel" class="filter-panel" hidden>
+      <label>Region<select id="region"><option value="">All regions</option></select></label>
+      <label><input id="hide-full" type="checkbox"> Hide full servers</label>
+      <label><input id="hide-passworded" type="checkbox"> Hide passworded</label>
+    </section>
+
+    <div class="browser-grid">
+      <section class="results-panel">
+        <div class="panel-title"><strong>ALL SERVERS</strong><span id="server-count">0 ONLINE</span></div>
+        <div id="server-list" class="server-list" aria-live="polite"></div>
+      </section>
+      <aside class="featured-panel">
+        <div class="panel-title"><strong>FEATURED SERVERS</strong><span>POPULAR NOW</span></div>
+        <div id="featured-list" class="featured-list"></div>
+        <div class="featured-footer">Featured placement never changes live player counts.</div>
+      </aside>
+    </div>
+  </main>
+
+  <dialog id="direct-dialog">
+    <form id="direct-form" method="dialog">
+      <button class="dialog-close" value="cancel" aria-label="Close">×</button>
+      <p class="eyebrow">DIRECT CONNECTION</p><h2>Join by address</h2>
+      <p>Connect to an unlisted ScheduleMP server.</p>
+      <label>Server address<input id="direct-host" required placeholder="play.example.com"></label>
+      <label>Port<input id="direct-port" type="number" min="1" max="65535" value="38465" required></label>
+      <label>Password<input id="direct-password" type="password" placeholder="Optional"></label>
+      <button id="direct-submit" class="green-button" value="default">CONNECT</button>
+    </form>
+  </dialog>
+  <div id="toast" role="status"></div>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>
