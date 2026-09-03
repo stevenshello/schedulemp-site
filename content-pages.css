@@ -1,1 +1,14 @@
 .content-page{max-width:1100px}.page-hero{padding:55px 0 38px;border-bottom:1px solid var(--line)}.page-hero .eyebrow{color:var(--lime);font-size:11px;font-weight:900;letter-spacing:.16em}.page-hero h1{font-size:clamp(38px,7vw,72px);letter-spacing:-.055em;margin:8px 0 15px}.page-hero p{max-width:690px;color:#a2aaa0;font-size:17px;line-height:1.6}.content-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:28px}.content-card{background:var(--surface);border:1px solid var(--line);padding:28px}.content-card h2{margin:0 0 10px;font-size:21px}.content-card p,.content-card li{color:var(--muted);line-height:1.65}.content-card .green-button{display:inline-flex;align-items:center;text-decoration:none;margin-top:10px}.content-card code{color:var(--lime)}.wide{grid-column:1/-1}.steps{counter-reset:step;list-style:none;padding:0}.steps li{counter-increment:step;margin:16px 0;padding-left:45px;position:relative}.steps li:before{content:counter(step);position:absolute;left:0;top:-3px;width:28px;height:28px;display:grid;place-items:center;background:#26391e;color:var(--lime);font-weight:900}@media(max-width:700px){.content-grid{grid-template-columns:1fr}.wide{grid-column:auto}}
+
+/* Download metadata under the button: version, size, SmartScreen note, checksum. */
+.content-card .note {
+  margin: 10px 0 0;
+  font-size: 13px;
+  line-height: 1.5;
+  opacity: 0.75;
+}
+.content-card .note code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 11px;
+  word-break: break-all;
+}
