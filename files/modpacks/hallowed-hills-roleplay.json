@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "serverId": "hallowed-hills-roleplay",
-  "packVersion": "0.1.18",
+  "packVersion": "0.1.19",
   "mods": [
     {
       "name": "Hallowed Hills RP Client",
-      "version": "0.1.18",
+      "version": "0.1.19",
       "file": "HallowedHills.RP.Client.dll",
-      "url": "/files/mods/HallowedHills.RP.Client-0.1.18.dll",
-      "sha256": "1987f86d1c54469cbf32c0aecd7c6fa7013e6bc57976b3a5833ad237d6367081"
+      "url": "/files/mods/HallowedHills.RP.Client-0.1.19.dll",
+      "sha256": "9cc44b7953086c28c1e02bfba6dc79bc2f37213ac6842406fa4e9c45390cacc0"
     }
   ]
 }
