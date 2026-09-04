@@ -8,7 +8,7 @@
       "version": "0.1.28",
       "file": "HallowedHills.RP.Client.dll",
       "url": "/files/mods/HallowedHills.RP.Client-0.1.28.dll",
-      "sha256": "425b49108c89b4152f7c16443620179d4346eb873283e5b113a7809229a737ba"
+      "sha256": "b16a3e2efdccabf4aaea7536c42a4ca7609b60ae2e614e3946a24024ba95437b"
     },
     { "name":"Hallowed Hills Banking", "version":"0.1.0", "file":"HallowedHills.Banking.Client.dll", "url":"/files/mods/HallowedHills.Banking.Client-0.1.0.dll", "sha256":"fc2cd8efca4f9611b2a6f9ed384015a198c8f27a70dd1f31bcde51b715ddaa12" },
     { "name":"Hallowed Hills Admin", "version":"0.1.3", "file":"HallowedHills.Admin.Client.dll", "url":"/files/mods/HallowedHills.Admin.Client-0.1.3.dll", "sha256":"205ee74b0ce347a20539924870e23aac34eb04d400f95c0117b08a9019efb632" },
