@@ -1,14 +1,18 @@
 {
   "schemaVersion": 1,
   "serverId": "hallowed-hills-roleplay",
-  "packVersion": "0.1.19",
+  "packVersion": "0.1.28",
   "mods": [
     {
-      "name": "Hallowed Hills RP Client",
-      "version": "0.1.19",
+      "name": "Hallowed Hills Character Flow",
+      "version": "0.1.28",
       "file": "HallowedHills.RP.Client.dll",
-      "url": "/files/mods/HallowedHills.RP.Client-0.1.19.dll",
-      "sha256": "9cc44b7953086c28c1e02bfba6dc79bc2f37213ac6842406fa4e9c45390cacc0"
-    }
+      "url": "/files/mods/HallowedHills.RP.Client-0.1.28.dll",
+      "sha256": "425b49108c89b4152f7c16443620179d4346eb873283e5b113a7809229a737ba"
+    },
+    { "name":"Hallowed Hills Banking", "version":"0.1.0", "file":"HallowedHills.Banking.Client.dll", "url":"/files/mods/HallowedHills.Banking.Client-0.1.0.dll", "sha256":"fc2cd8efca4f9611b2a6f9ed384015a198c8f27a70dd1f31bcde51b715ddaa12" },
+    { "name":"Hallowed Hills Admin", "version":"0.1.3", "file":"HallowedHills.Admin.Client.dll", "url":"/files/mods/HallowedHills.Admin.Client-0.1.3.dll", "sha256":"205ee74b0ce347a20539924870e23aac34eb04d400f95c0117b08a9019efb632" },
+    { "name":"Hallowed Hills Needs", "version":"0.1.0", "file":"HallowedHills.Needs.Client.dll", "url":"/files/mods/HallowedHills.Needs.Client-0.1.0.dll", "sha256":"116ad44a7192ec8c19d3c168a363aa1bc115064689437b33c2d5c36a8b21214e" },
+    { "name":"Hallowed Hills HUD", "version":"0.1.0", "file":"HallowedHills.HUD.Client.dll", "url":"/files/mods/HallowedHills.HUD.Client-0.1.0.dll", "sha256":"c86453572a18f888f37cd93e2c11448715966c6a969b5c0badb94b1e830f3e23" }
   ]
 }
