@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "serverId": "hallowed-hills-roleplay",
-  "packVersion": "0.1.67",
+  "packVersion": "0.1.68",
   "mods": [
     {
       "name": "Hallowed Hills Core Contracts Client",
@@ -68,10 +68,10 @@
     },
     {
       "name": "Hallowed Hills Inventory",
-      "version": "0.1.5",
+      "version": "0.1.6",
       "file": "HallowedHills.Inventory.Client.dll",
-      "url": "/files/mods/HallowedHills.Inventory.Client-0.1.5.dll",
-      "sha256": "77971949a3d48360dc56866375d7e7e2a2a3a6fe93b178920576da3c8b42dc4d"
+      "url": "/files/mods/HallowedHills.Inventory.Client-0.1.6.dll",
+      "sha256": "ed3c5bd346ab0e674424badfe223f8781145075d01515bbe1eb7c1bc69e8bb50"
     },
     {
       "name": "Inventory Chromium Core",
