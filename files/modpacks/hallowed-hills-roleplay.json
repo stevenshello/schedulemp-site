@@ -1,8 +1,15 @@
 {
   "schemaVersion": 1,
   "serverId": "hallowed-hills-roleplay",
-  "packVersion": "0.1.74",
+  "packVersion": "0.1.75",
   "mods": [
+    {
+      "name": "ScheduleMP Client Bridge",
+      "version": "1.0.17",
+      "file": "DedicatedServerMod_Il2cpp_Client.dll",
+      "url": "/files/mods/DedicatedServerMod.Il2Cpp.Client-1.0.17.dll",
+      "sha256": "9c0ff0217d5db84c4e07e5eb6cfc51c771f155a975ab877c279a7389797bc190"
+    },
     {
       "name": "Hallowed Hills Core Contracts Client",
       "version": "0.1.0",
