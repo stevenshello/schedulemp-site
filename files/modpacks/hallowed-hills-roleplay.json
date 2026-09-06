@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "serverId": "hallowed-hills-roleplay",
-  "packVersion": "0.1.72",
+  "packVersion": "0.1.73",
   "mods": [
     {
       "name": "Hallowed Hills Core Contracts Client",
@@ -40,10 +40,10 @@
     },
     {
       "name": "Hallowed Hills Banking",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "file": "HallowedHills.Banking.Client.dll",
-      "url": "/files/mods/HallowedHills.Banking.Client-0.1.1.dll",
-      "sha256": "58ec586c7b8c296bd1fa837e25cc0b8970f116c36c704b748cc331e28943eb55"
+      "url": "/files/mods/HallowedHills.Banking.Client-0.1.2.dll",
+      "sha256": "c625c906f53fd7cebf699308df2b2d4da9ed95feb8bed5ffc2c726b47a32320e"
     },
     {
       "name": "Hallowed Hills Admin",
@@ -68,10 +68,10 @@
     },
     {
       "name": "Hallowed Hills Inventory",
-      "version": "0.1.10",
+      "version": "0.1.11",
       "file": "HallowedHills.Inventory.Client.dll",
-      "url": "/files/mods/HallowedHills.Inventory.Client-0.1.10.dll",
-      "sha256": "71bdc127ce172ecf7a43b187a3a47bbaf68d549bf875026b6807baaa86cea81b"
+      "url": "/files/mods/HallowedHills.Inventory.Client-0.1.11.dll",
+      "sha256": "2ebf95eb0e9c45f07a304ebeaf964d8b187bca84eaff3530f4b4f8883dded41a"
     },
     {
       "name": "Inventory Chromium Core",
